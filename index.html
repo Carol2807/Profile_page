@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+
+<body bgcolor="#F8F8F2">
+<div class="profile" >
+    <button onclick="top_func()" id="btn" title="Go to top">Top</button>
+    <div class="header" align="center">
+		  <img src="img/cooltext352176985777942.png"/>
+    </div>
+   	<div class="nav">
+      		<a href="#abtme">About Me</a>
+            <a href="#edu">Education</a>
+            <a href="#work">Work Experience</a>
+            <a href="#achv">Achievements</a>
+            <a href="#hob">Hobbies</a>
+    </div>
+   	<div class="body">
+    	<div id="abtme">
+            <h2>About Me</h2><br>
+        	<table style="border:1px solid black;margin-left:auto;margin-right:auto;" width="80%" height="300" border="2">
+            	<tr>
+                	<td width="25%">
+                		<img src="img/fem.jpg"/ height="300" width="100%">
+                	</td>
+                	<td width="75%" align="justify">
+                    	<ul>
+                    		<li>Hi, I am Muskan Rana.</li><br>
+                            <li>I am a native of Uttarakhand, but brought up in Lucknow,UP.</li><br>
+                            <li>Currently I am pursuing a B.Tech. degree in CSE from IIIT Kottayam.</li><br>
+                            <li>Also I am currently taking the Full Stack Web Development course from Verzeo.</li><br>
+                            <li>This is a profile page made by me.</li><br>
+                            <li>This is my Minor project for my Full Stack Web Development course.</li><br>   
+                     	</ul>
+                    </td>
+              	</tr>
+          </table>
+        </div>
+        <div id="edu">
+            <h2>Education</h2><br>
+            <ul>
+                <li> Highschool : Lucknow Public School	<br /> Completed in : 2015 <br /> Grade : A+ (10CGPA)</li><br>
+                <li> Intermediate : Lucknow Public School<br /> Completed in : 2017 <br /> Score: 97% </li><br>
+                <li> BTech : Indian Institute of Information Technology, Kottayam<br /> Duration : 2018-Present <br /> Grade : A (10CGPA)</li>
+            </ul>
+        </div>
+        <div id="work"> 
+            <h2>Work Experience</h2><br>
+            <ul>
+            	<li> Global Institute of Computer Science and Technology, Lucknow - Internship <br /> May 2019 - July 2019 <br /> Completed a project based on a CS Coaching Centre </li><br>
+                <li> Verzeo - Online Course & Internship <br /> Feb 2020 - Present <br /> Completed a profile website </li>
+            </ul>
+        </div>
+        <div id="achv">
+            <h2>Achievements</h2><br>
+            <ul>
+            	<li>Participated in Google CodeJam 2019 and cleared qualification round.</li><br>
+                <li>Participated in Google Hashcode 2020 and scored rank 7912 all over the world.</li><br>
+                <li>Participated in ACM ICPC 2019 and scored rank 3126 all over India.</li>
+            </ul>
+        </div>
+        <div id="hob">
+            <h2>Hobbies</h2><br>
+            <ul>
+            	<li>Music</li><br>
+                <li>Drawing and Painting</li><br>
+            </ul>
+        </div>
+   	</div>
+    <div class="footer">
+    	<table height="50" width="100%">
+        	<tr>
+            	<td width="3%"><img src="gmail.png" width="50" height="50"/></td>
+                <td width="40%">muskanrana18bcs@iiitkottayam.ac.in</td>
+            	<td width="3%"><img src="linkedin.png" width="50" height="50"/></td>
+                <td width="30%">Muskan Rana</td>
+                <td width="3%"><img src="images.png" width="50" height="50"/></td>
+                <td width="30%">9506481***</td>
+        	</tr>
+        </table>
+    </div>
+</div>
+<script>
+    var mybtn = document.getElementById('btn');
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+            mybtn.style.display = "block";
+        } else {
+            mybtn.style.display = "none";
+        }
+    }
+    top_func = () =>{
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* CSS Document */
+.header{
+	color: #F8F8F2;
+	/* background-color:rgb(211, 23, 126); */
+	background-image: linear-gradient(#d30175, rgb(211, 61, 142), #ec95cb, rgb(211, 61, 142), rgb(211, 1, 117));
+	padding:20px 15px;
+	font-family:"Comic Sans MS", cursive;
+}
+.nav{
+	color: #F8F8F2;
+	background-color:#000;
+	font-family:"Comic Sans MS", cursive;
+}
+.nav a{
+	color:#F8F8F2;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	padding:20px 15px;
+}
+.nav a:hover{
+	color:#000;
+	background:#F8F8F2;
+}
+#abtme{
+	text-align: center;
+	color: #000;
+	background-image: linear-gradient(to right, #ec95cb, #F8F8F2);
+	font-family:"Comic Sans MS", cursive;
+	padding:20px 15px;
+}
+#edu{
+	text-align: center;
+	color: #000;
+	background-image: linear-gradient(to right, #F8F8F2, rgb(102, 16, 214));
+	font-family:"Comic Sans MS", cursive;
+	padding:20px 15px;
+}
+#work{
+	text-align: center;
+	color: #000;
+	background-image: linear-gradient(to right, #ec95cb, #F8F8F2);
+	font-family:"Comic Sans MS", cursive;
+	padding:20px 15px;
+}
+#achv{
+	text-align: center;
+	color: #000;
+	background-image: linear-gradient(to right, #F8F8F2, rgb(102, 16, 214));
+	font-family:"Comic Sans MS", cursive;
+	padding:20px 15px;
+}
+#hob{
+	text-align: center;
+	color: #000;
+	background-image: linear-gradient(to right, #ec95cb, #F8F8F2);
+	font-family:"Comic Sans MS", cursive;
+	padding:20px 15px;
+}
+.footer{
+	color: #F8F8F2;
+	background-color:#000;
+	font-family:"Comic Sans MS", cursive;
+}
+#btn{
+	position: fixed;
+	z-index: 1000;
+	bottom: 65px;
+	right: 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	background-color: #000;
+	color: #F8F8F2;	
+}
+#btn:hover{
+	background-color: #d30175;
+	color: #000;
+} 
+/*tabs*/
+@media only screen and (min-width: 900px) and (max-width: 1199px){
+	.nav a{
+	color:#000;
+	text-decoration:none;
+	display:block;
+	font-size:12px;
+	padding:15px 10px;
+}
+}
+/*mobiles*/
+@media only screen and (max-width: 420px){
+	.nav a{
+	color:#000;
+	text-decoration:none;
+	display:block;
+	font-size:9px;
+	padding:10px 5;
+}
+}
